@@ -42,7 +42,11 @@
                 </form>
               </div>
             </div>
-          </nav>   
+          </nav> 
+          <div class="climate-view">
+            <p>{{ current.time }}</p>
+            <p>{{ current.temperature_2m }} {{ current_units.temperature_2m }}</p>
+          </div>  
   </body>
 {% block content %}
 {% endblock %}
